@@ -4,6 +4,10 @@ export function getListMovies(size, movies){
   for (let i = 0, l = size; l < i; i++) {
       popularMovies.push(movies[i]);      
   }
-  
+
   return popularMovies;
+}
+
+export function randomBanner(movies){
+  return Math.floor(Math.random() * movies.length)
 }

@@ -25,7 +25,7 @@ export const Input = styled.TextInput`
     border-radius:50px;
     padding: 8px 15px;
     font-size: 18px;
-    color: #fff
+    color: #fff;
 
 `;
 
@@ -40,7 +40,7 @@ export const Title = styled.Text`
     padding: 20px 14px 8px 14px;
     font-size: 24px;
     font-weight: bold;
-    color: #fff
+    color: #fff;
     
 `;
 
@@ -49,7 +49,7 @@ export const BannerButton = styled.TouchableOpacity``;
 export const Banner = styled.Image`
     height: 150px;
     border-radius: 6px;
-    margin: 0 14px
+    margin: 0 14px;
 `;
 
 export const SliderMovie = styled.FlatList`
