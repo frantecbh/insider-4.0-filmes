@@ -6,7 +6,7 @@ import {Container,MenuButton,Title} from './styles'
 import {useNavigation} from '@react-navigation/native'
 
 
-export default function Header(props){
+export default function Header({title}){
 
     const navigation = useNavigation()
 
@@ -16,7 +16,7 @@ export default function Header(props){
                 <Feather 
                     name="menu" size={36} color="#fff" />
             </MenuButton>
-            <Title>{props.title}</Title>
+            <Title>{title}</Title>
         </Container>
     )
 }
